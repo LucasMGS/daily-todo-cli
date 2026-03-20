@@ -1,0 +1,17 @@
+{
+  "name": "daily-todo",
+  "version": "1.0.0",
+  "description": "A daily markdown-based todo CLI",
+  "main": "dist/index.js",
+  "bin": { "todo": "./dist/index.js" },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "todo": "node dist/index.js"
+  },
+  "dependencies": { "commander": "^12.0.0" },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  }
+}
